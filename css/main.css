@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
+    font-family: inherit;
+}
+
+::selection {
+    background: var(--purple);
+    color: #fff;
+}
+
+body {
+    background: var(--bg);
+    transition: background-color .4s ease-out;
+}
+
+:root {
+    --purple: #682ae9;
+    --light: #dbdbdb;
+    --header-link: #dbdbdb;
+    --header-link-hover: #682ae9;
+    --header-link-hover-icon: #dbdbdb;
+    --header-link-active: #555;
+    --std-color: #dbdbdb;
+    --bg: #0e1212;
+    --bg-rgb: 14,18,18;
+    --bgLight: radial-gradient(var(--bg),transparent,var(--purple) 130%);
+    --gray: grey;
+    --comment: #555;
+}
+
+
